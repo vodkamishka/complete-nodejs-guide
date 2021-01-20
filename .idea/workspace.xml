@@ -20,7 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cecbb94-b3a8-4603-bdc2-cf774b7f9708" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/add-product.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/edit-product.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/products.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/main-layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/cart.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/checkout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/product-detail.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/product-list.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +65,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\node\views\shop" />
+      <recent name="C:\Users\User\Desktop\node\views\admin" />
       <recent name="C:\Users\User\Desktop\node\views" />
     </key>
   </component>
@@ -62,7 +85,12 @@
       <workItem from="1610688880585" duration="16258000" />
       <workItem from="1610941438508" duration="12624000" />
       <workItem from="1610966227239" duration="3092000" />
-      <workItem from="1610970576713" duration="1253000" />
+      <workItem from="1610970576713" duration="1691000" />
+      <workItem from="1611037152031" duration="11902000" />
+      <workItem from="1611074431876" duration="4013000" />
+      <workItem from="1611080917250" duration="1837000" />
+      <workItem from="1611082924237" duration="354000" />
+      <workItem from="1611118729540" duration="9775000" />
     </task>
     <servers />
   </component>
@@ -90,9 +118,9 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2310" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610888108607" />
-    <state x="2360" y="455" key="FileChooserDialogImpl" timestamp="1610970573606">
+    <state x="2360" y="455" key="FileChooserDialogImpl" timestamp="1611082753197">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2360" y="455" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1610970573606" />
+    <state x="2360" y="455" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1611082753197" />
   </component>
 </project>
