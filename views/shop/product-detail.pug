@@ -1,0 +1,15 @@
+extends ../layouts/main-layout
+include ../layouts/add-to-cart
+
+block styles
+    link(rel="stylesheet" href="/css/main.css")
+
+block content
+    main.centerd
+        h1 #{product.title}
+        hr
+        div
+            img(src=`${product.imageUrl}`, alt=product.title)
+        h2 #{product.price}
+        p #{product.description}
+        +add-to-cart(product)

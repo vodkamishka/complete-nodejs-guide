@@ -20,28 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cecbb94-b3a8-4603-bdc2-cf774b7f9708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/404.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/add-product.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/edit-product.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/main-layout.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/cart.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/checkout.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/product-detail.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/product-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/add-to-cart.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/orders.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/add-product.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/add-product.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/products.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/products.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main-layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main-layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-detail.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-detail.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,11 @@
       <workItem from="1611074431876" duration="4013000" />
       <workItem from="1611080917250" duration="1837000" />
       <workItem from="1611082924237" duration="354000" />
-      <workItem from="1611118729540" duration="9775000" />
+      <workItem from="1611118729540" duration="10542000" />
+      <workItem from="1611199104806" duration="17782000" />
+      <workItem from="1611307337368" duration="602000" />
+      <workItem from="1611310243585" duration="620000" />
+      <workItem from="1611319376106" duration="338000" />
     </task>
     <servers />
   </component>
@@ -114,10 +112,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="609" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1610966715520" />
-    <state x="2310" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610888108607">
+    <state x="2310" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611199326294">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2310" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610888108607" />
+    <state x="2310" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1611199326294" />
     <state x="2360" y="455" key="FileChooserDialogImpl" timestamp="1611082753197">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
